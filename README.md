@@ -1,5 +1,5 @@
 # Satzmetzer
-Split German text to sentence! Uses TRIE-Regex to filter ordinal numbers (23.04., 2.5. ...), roman numbers, (II., XI. ...) 15,000 abbreviations (z.B., Abk. ...) , about 7,500 second-level domains (.com.br, ac.at ...), 1500 file name filename extensions (hallo.docx, tabelle.xlsx)   
+Split German text to sentence! Uses TRIE-Regex to filter ordinal numbers (23.04., 2.5. ...), roman numbers, (II., XI. ...) 15,000 abbreviations (z.B., Abk. ...) , about 7,500 second-level domains (.com.br, ac.at ...), 1500 file name filename extensions (hallo.docx, tabelle.xlsx ...)   
 
 Before writing this class, I had tested about 20 classes, modules, functions, and methods to split German text to sentences. I wasn't happy with any of the results, so I wrote this class here! It doesn't use any AI, just old school Regex! 
 
