@@ -5,11 +5,14 @@ Before writing this class, I had tested about 20 classes, modules, functions, an
 
 
 It is very simple to use! Here is everything you need to know:
+```
+pip install satzmetzger
+```
 
 ```
 textzumsplitten ='''Hallo, ich bin ein Text. Zerhack mich bitte! Ich halte es nicht mehr aus. Wenn du mich bis zum 23.04. nicht zerhackst, rufe ich Papst Hackerpeter X. an und schicke ihm das Dokument erhatmichnichtzerhackt.docx, er wird z. B. sehr böse auf dich sein! Darauf kannst du einen lassen!'''
 
-from satzmetzger import Satzmetzger
+from satzmetzger.satzmetzger import Satzmetzger
 losgehts = Satzmetzger()
 textfertig = losgehts.zerhack_den_text(textzumsplitten, debug=False)
 for indi, zerhacktersatz in enumerate(textfertig):
